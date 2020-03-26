@@ -1,25 +1,7 @@
 import React from "react";
 import { StyleSheet, View, TouchableOpacity } from 'react-native';
-import {
-    ViewStyleProp,
-} from 'react-native/Libraries/StyleSheet/StyleSheet'
 
-export interface SegmentedControlTabsProps {
-    values: Array<any>;
-    activeIndex?: number;
-    selectedIndexes?: Array<number>;
-    handleOnChangeIndex: (number: number) => void;
-    tabsContainerStyle: ViewStyleProp;
-    activeTabStyle?: ViewStyleProp;
-    tabStyle?: ViewStyleProp;
-    firstTabStyle?: ViewStyleProp;
-    lastTabStyle?: ViewStyleProp;
-    selectedTabStyle?: ViewStyleProp;
-    selectedFirstTabStyle?: ViewStyleProp;
-    selectedLastTabStyle?: ViewStyleProp;
-}
-
-const SegmentedControlTabs = (props: SegmentedControlTabsProps) => {
+const SegmentedControlTabs = (props) => {
     const { values, selectedIndexes, handleOnChangeIndex, tabsContainerStyle, activeIndex, activeTabStyle, tabStyle, firstTabStyle, lastTabStyle, selectedTabStyle, selectedFirstTabStyle, selectedLastTabStyle } = props;
     return (
         <View style={[styles.tabsContainerStyle, { ...tabsContainerStyle }]}>
