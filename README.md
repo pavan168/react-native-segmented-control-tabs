@@ -20,6 +20,8 @@ yarn add react-native-segmented-control-tabs
 
 ### Segmented Control Tabs with Text
 
+![Demo](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-text-singleselect.gif)
+
 ### Segmented Control Tabs with Images
 
 ### Segmented Control multiple tabs selected
