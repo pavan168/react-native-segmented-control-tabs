@@ -25,7 +25,9 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ### Tabs with text
 
-![React Native Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-text-singleselect.gif)
+| iOS        | Android           | 
+| :-------------: |:-------------:| 
+| ![React Native iOS Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-ios-text-singleselect.gif) | ![React Native Android Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-android-text-singleselect.gif) |
 
 ```javascript
 <SegmentedControlTabs
@@ -69,11 +71,9 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ### Tabs with images
 
-
-
 | iOS        | Android           | 
 | :-------------: |:-------------:| 
-| ![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png)      | ![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png) | 
+| ![React Native iOS Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-ios-image-singleselect.png)      | ![React Native Android Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-android-image-singleselect.png) | 
 
 ```javascript
 <SegmentedControlTabs
@@ -135,7 +135,10 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ### Multiple selected tabs
 
-![React Native Segmented Control multiple tabs selected with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-multipleselect.png)
+| iOS        | Android           | 
+| :-------------: |:-------------:| 
+| ![React Native iOS Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-ios-image-multipleselect.png)      | ![React Native Android Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-android-image-multipleselect.png) | 
+
 
 Pass an array of indexes as shown below.
 
