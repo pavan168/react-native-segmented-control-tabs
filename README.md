@@ -167,7 +167,7 @@ selectedIndexes={[0,1,2]}
 | activeTabStyle      | Style to be used for active tab | Style Object |No |
 | firstTabStyle      | Style to be used for first tab when selected tabs are not used | Style Object |No |
 | lastTabStyle      | Style to be used for last tab when selected tabs are not used | Style Object |No |
-| tabStyle      | | Style to be used as default tab | Style Object |Yes|
+| tabStyle | Style to be used as default tab | Style Object |Yes|
 
 ## Authors
 
