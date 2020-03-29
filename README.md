@@ -15,7 +15,7 @@ With yarn
 ```
 yarn add react-native-segmented-control-tabs
 ```
-## Import
+## Usage
 
 ```javascript
 import SegmentedControlTabs from 'react-native-segmented-control-tabs';
