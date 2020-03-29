@@ -69,7 +69,11 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ### Tabs with images
 
-![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png)
+
+
+| iOS        | Android           | 
+| :-------------: |:-------------:| 
+| ![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png)      | ![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png) | 
 
 ```javascript
 <SegmentedControlTabs
