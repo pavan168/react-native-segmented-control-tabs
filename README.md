@@ -29,6 +29,8 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 | :-------------: |:-------------:| 
 | ![React Native iOS Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-ios-text-singleselect.gif) | ![React Native Android Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-android-text-singleselect.gif) |
 
+### Example code
+
 ```javascript
 <SegmentedControlTabs
                     values={[
@@ -75,6 +77,7 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 | :-------------: |:-------------:| 
 | ![React Native iOS Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-ios-image-singleselect.png)      | ![React Native Android Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-android-image-singleselect.png) | 
 
+### Example code
 ```javascript
 <SegmentedControlTabs
                     values={[
@@ -100,7 +103,10 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
                     activeIndex={selectedIndex}
                     selectedTabStyle={{ backgroundColor: '#fff' }}
                     selectedFirstTabStyle={{ backgroundColor: '#fff' }}
-                    selectedLastTabStyle={{ backgroundColor: '#fff', borderBottomRightRadius: 20, borderTopRightRadius: 20 }}
+                    selectedLastTabStyle={{ backgroundColor: '#fff', 
+                    borderBottomRightRadius: 20, 
+                    borderTopRightRadius: 20 
+                    }}
                     tabsContainerStyle={{
                         width: '100%',
                         height: 35,
