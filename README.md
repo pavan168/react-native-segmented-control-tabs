@@ -127,7 +127,7 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
                         borderColor: 'transparent'
                     }}
                 />
-    ```
+```
 
 ### Multiple tabs selected
 
