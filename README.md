@@ -158,16 +158,16 @@ selectedIndexes={[0,1,2]}
 | :------------- |:-------------| :-----|:---------|
 | values      | List of titles, images or a mix of both | Array |Yes |
 | handleOnChangeIndex      | Callback function when a tab is selected | func | Yes |
-| selectedIndexes      | Indexes of the tabs to be highlighted | Array |No 
-| activeIndex      | Index of the active tab  | Array |Yes 
-| selectedTabStyle      | Style to be used for highlighted tabs | Style Object |Yes, when selectedIndexes is used
-| selectedFirstTabStyle      | Style to be used for first highlighted tab | Style Object |Yes, when selectedIndexes is used 
-| selectedLastTabStyle      | Style to be used for last highlighted tab | Style Object | Yes, when selectedIndexes is used 
-| tabsContainerStyle      | Style to be used for tab container | Style Object |Yes 
-| activeTabStyle      | Style to be used for active tab | Style Object |No 
-| firstTabStyle      | Style to be used for first tab when selected tabs are not used | Style Object |No 
-| lastTabStyle      | Style to be used for last tab when selected tabs are not used | Style Object |No
-| tabStyle      | | Style to be used as default tab | Style Object |Yes
+| selectedIndexes      | Indexes of the tabs to be highlighted | Array |No |
+| activeIndex      | Index of the active tab  | Array |Yes |
+| selectedTabStyle      | Style to be used for highlighted tabs | Style Object |Yes, when selectedIndexes is used |
+| selectedFirstTabStyle      | Style to be used for first highlighted tab | Style Object |Yes, when selectedIndexes is used |
+| selectedLastTabStyle      | Style to be used for last highlighted tab | Style Object | Yes, when selectedIndexes is used |
+| tabsContainerStyle      | Style to be used for tab container | Style Object |Yes |
+| activeTabStyle      | Style to be used for active tab | Style Object |No |
+| firstTabStyle      | Style to be used for first tab when selected tabs are not used | Style Object |No |
+| lastTabStyle      | Style to be used for last tab when selected tabs are not used | Style Object |No |
+| tabStyle | Style to be used as default tab | Style Object |Yes|
 
 ## Authors
 
