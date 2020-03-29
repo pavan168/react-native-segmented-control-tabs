@@ -27,11 +27,11 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ![React Native Segmented Control tabs with text](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-text-singleselect.gif)
 
-```
+```javascript
 <SegmentedControlTabs
                     values={[
-                        <Text style={[selectedIndex === 0 ? { color: '#1B3964', fontWeight: 'bold' } : { color: '#89AECC' }]}>LOG IN</Text>,
-                        <Text style={[selectedIndex === 1 ? { color: '#1B3964', fontWeight: 'bold' } : { color: '#89AECC' }]}>SIGN UP</Text>
+                        <Text style={{ color: '#1B3964' }]}>LOG IN</Text>,
+                        <Text style={{ color: '#89AECC' }}>SIGN UP</Text>
                     ]}
                     handleOnChangeIndex={handleSelectedIndex}
                     activeIndex={selectedIndex}
@@ -44,7 +44,7 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
                         borderTopRightRadius: 20,
                         borderBottomRightRadius: 20,
                         borderColor: '#EAF3FF',
-                        borderWidth: 1.3
+                        borderWidth: 1
                     }}
                     activeTabStyle={{
                         borderBottomColor: "rgb(255,177,120)",
@@ -71,23 +71,23 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
 
 ![React Native Segmented Control tabs with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-singleselect.png)
 
-```
+```javascript
 <SegmentedControlTabs
                     values={[
                         <Image
-                            style={{ width: '45%', height: '45%', resizeMode: 'contain' }}
+                            style={{ width: 40, height: 40, resizeMode: 'contain' }}
                             source={require('../../assets/icon.png')}
                         />,
                         <Image
-                            style={{ width: '45%', height: '45%', resizeMode: 'contain' }}
+                            style={{ width: 40, height: 40, resizeMode: 'contain' }}
                             source={require('../../assets/icon.png')}
                         />,
                         <Image
-                            style={{ width: '45%', height: '45%', resizeMode: 'contain' }}
+                            style={{ width: 40, height: 40, resizeMode: 'contain' }}
                             source={require('../../assets/icon.png')}
                         />,
                         <Image
-                            style={{ width: '30%', height: '30%', resizeMode: 'contain' }}
+                            style={{ width: 40, height: 40, resizeMode: 'contain' }}
                             source={require('../../assets/icon.png')}
                         />,
                     ]}
@@ -106,7 +106,7 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
                         borderTopRightRadius: 20,
                         borderBottomRightRadius: 20,
                         borderColor: '#EAF3FF',
-                        borderWidth: 1.3
+                        borderWidth: 1
                     }}
                     activeTabStyle={{
                         borderBottomColor: "rgb(255,177,120)",
@@ -129,12 +129,13 @@ import SegmentedControlTabs from 'react-native-segmented-control-tabs';
                 />
 ```
 
-### Multiple tabs selected
+### Multiple selected tabs
 
 ![React Native Segmented Control multiple tabs selected with images](https://github.com/pavan168/react-native-segmented-control-tabs/blob/update-doc/screenshots/segmentedcontrol-image-multipleselect.png)
 
-Pass an array of index as given below.
-```
+Pass an array of indexes as shown below.
+
+```javascript
 selectedIndexes={[0,1,2]}
 ```
 
