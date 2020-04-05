@@ -1,6 +1,6 @@
 {
   "name": "react-native-segmented-control-tabs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "reactnative",
     "react-native",
@@ -9,6 +9,10 @@
   ],
   "description": "A React Native component for iOS and Android based on SegmentedControlIOS.",
   "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/pavan168/react-native-segmented-control-tabs/issues"
+  },
+  "homepage": "https://github.com/pavan168/react-native-segmented-control-tabs#readme",
   "repository": "https://github.com/pavan168/react-native-segmented-control-tabs.git",
   "author": "Pavan Welihinda <pavan168@hotmail.com>",
   "devDependencies": {
