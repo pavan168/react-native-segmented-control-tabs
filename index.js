@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, View, TouchableOpacity } from 'react-native';
 
 const SegmentedControlTabs = (props) => {
-    const { values, selectedIndexes, handleOnChangeIndex, tabsContainerStyle, activeIndex, activeTabStyle, tabStyle, firstTabStyle, lastTabStyle, selectedTabStyle, selectedFirstTabStyle, selectedLastTabStyle } = props;
+    const { values, selectedIndexes, handleOnChangeIndex, tabsContainerStyle, activeIndex, activeTabStyle, tabStyle, firstTabStyle, lastTabStyle, selectedTabStyles, selectedFirstTabStyle, selectedLastTabStyle } = props;
     return (
         <View style={[styles.tabsContainerStyle, { ...tabsContainerStyle }]}>
             {values.map((value, index) => {
@@ -10,9 +10,7 @@ const SegmentedControlTabs = (props) => {
                     key={index}
                     onPress={() => handleOnChangeIndex(index)}
                     style={[styles.tabStyle,
-                    selectedIndexes && (selectedIndexes.includes(index) ? selectedTabStyle : {}),
-                    selectedIndexes && (Math.min(...selectedIndexes) === index ? selectedFirstTabStyle : {}),
-                    selectedIndexes && (Math.max(...selectedIndexes) === index ? selectedLastTabStyle : {}),
+                    selectedIndexes && selectedTabStyles && selectedTabStyles[index] && (selectedIndexes.includes(index) ? selectedTabStyles[index] : {}),
                     activeTabStyle && (activeIndex === index ? activeTabStyle : {}),
                     firstTabStyle && (index === 0 ? firstTabStyle : {}),
                     lastTabStyle && (values.length - 1 === index ? lastTabStyle : {}),
